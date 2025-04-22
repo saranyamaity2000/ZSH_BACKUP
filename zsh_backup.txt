@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/Users/saranyamaity/go/bin:$PATH"
 export PATH=${PATH}:/usr/local/mysql-8.0.28-macos11-x86_64/bin/
 export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/13/bin
@@ -131,7 +132,7 @@ alias mongo-start="brew services start mongodb-community"
 alias mongo-stop="brew services stop mongodb-community"
 alias mongo-restart="brew services restart mongodb-community"
 alias zshrc-update="source ~/.zshrc"
-alias get-folder-permission="sudo chmod -R 777"
+alias get-folder-permission="sudo chmod -R 700"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
